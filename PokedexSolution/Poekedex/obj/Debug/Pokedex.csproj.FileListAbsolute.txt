@@ -1,0 +1,17 @@
+C:\Users\Ezequiel\Escritorio\CursoMaxiPrograma\Curso_nivel2_CSharp\PokedexSolution\Poekedex\bin\Debug\Poekedex.exe.config
+C:\Users\Ezequiel\Escritorio\CursoMaxiPrograma\Curso_nivel2_CSharp\PokedexSolution\Poekedex\bin\Debug\Poekedex.exe
+C:\Users\Ezequiel\Escritorio\CursoMaxiPrograma\Curso_nivel2_CSharp\PokedexSolution\Poekedex\bin\Debug\Poekedex.pdb
+C:\Users\Ezequiel\Escritorio\CursoMaxiPrograma\Curso_nivel2_CSharp\PokedexSolution\Poekedex\bin\Debug\Dominio.dll
+C:\Users\Ezequiel\Escritorio\CursoMaxiPrograma\Curso_nivel2_CSharp\PokedexSolution\Poekedex\bin\Debug\Negocio.dll
+C:\Users\Ezequiel\Escritorio\CursoMaxiPrograma\Curso_nivel2_CSharp\PokedexSolution\Poekedex\bin\Debug\Dominio.pdb
+C:\Users\Ezequiel\Escritorio\CursoMaxiPrograma\Curso_nivel2_CSharp\PokedexSolution\Poekedex\bin\Debug\Negocio.pdb
+C:\Users\Ezequiel\Escritorio\CursoMaxiPrograma\Curso_nivel2_CSharp\PokedexSolution\Poekedex\obj\Debug\Pokedex.csproj.AssemblyReference.cache
+C:\Users\Ezequiel\Escritorio\CursoMaxiPrograma\Curso_nivel2_CSharp\PokedexSolution\Poekedex\obj\Debug\Pokedex.PokedexForm.resources
+C:\Users\Ezequiel\Escritorio\CursoMaxiPrograma\Curso_nivel2_CSharp\PokedexSolution\Poekedex\obj\Debug\Poekedex.Properties.Resources.resources
+C:\Users\Ezequiel\Escritorio\CursoMaxiPrograma\Curso_nivel2_CSharp\PokedexSolution\Poekedex\obj\Debug\Poekedex.RegistroAltaPokemonForms.resources
+C:\Users\Ezequiel\Escritorio\CursoMaxiPrograma\Curso_nivel2_CSharp\PokedexSolution\Poekedex\obj\Debug\Pokedex.csproj.GenerateResource.cache
+C:\Users\Ezequiel\Escritorio\CursoMaxiPrograma\Curso_nivel2_CSharp\PokedexSolution\Poekedex\obj\Debug\Pokedex.csproj.CoreCompileInputs.cache
+C:\Users\Ezequiel\Escritorio\CursoMaxiPrograma\Curso_nivel2_CSharp\PokedexSolution\Poekedex\obj\Debug\Pokedex.csproj.Up2Date
+C:\Users\Ezequiel\Escritorio\CursoMaxiPrograma\Curso_nivel2_CSharp\PokedexSolution\Poekedex\obj\Debug\Poekedex.exe
+C:\Users\Ezequiel\Escritorio\CursoMaxiPrograma\Curso_nivel2_CSharp\PokedexSolution\Poekedex\obj\Debug\Poekedex.pdb
+C:\Users\Ezequiel\Escritorio\CursoMaxiPrograma\Curso_nivel2_CSharp\PokedexSolution\Poekedex\obj\Debug\Poekedex.exe.config
