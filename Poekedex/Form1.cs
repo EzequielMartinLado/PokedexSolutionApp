@@ -189,8 +189,9 @@ namespace Pokedex
         }
         private void FiltroButton_Click(object sender, EventArgs e)
         {
+            
             PokemonNegocio pokemonNegocio = new PokemonNegocio();
-            try
+            /*try
             {
                 if (ValidarFiltro())
                     return;
@@ -203,6 +204,14 @@ namespace Pokedex
             {
 
                 MessageBox.Show(ex.ToString());
+            }*/
+            while (!(ValidarFiltro()))
+            {
+                string campo = CampoComboBox.SelectedItem.ToString();
+                string criterio = CriterioComboBox.SelectedItem.ToString();
+                string filtro = FiltroBDTextBox.Text;
+                PokemonDataGridView.DataSource = pokemonNegocio.Filtrar(campo, criterio, filtro);
+                return;
             }
         }
 
