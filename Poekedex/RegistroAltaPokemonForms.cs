@@ -66,7 +66,9 @@ namespace Poekedex
 
                 if (archivoImg != null && !(urlImagenTextBox.Text.ToLower().Contains("http")))
                 {
-                    File.Copy(archivoImg.FileName, ConfigurationManager.AppSettings["pokemon-folder"] + archivoImg.SafeFileName);
+                    string destino = ConfigurationManager.AppSettings["pokemon-folder"] + archivoImg.SafeFileName;
+                    File.Copy(archivoImg.FileName, destino);
+                    pokemon.UrlImagen = destino;
                     
                 }
 
@@ -88,9 +90,11 @@ namespace Poekedex
                 TipoComboBox.DataSource = elementoNegocio.Listar();
                 TipoComboBox.ValueMember = "Id";
                 TipoComboBox.DisplayMember = "Descripcion";
+                TipoComboBox.SelectedIndex = -1;
                 DebilidadComboBox.DataSource = elementoNegocio.Listar();
                 DebilidadComboBox.ValueMember = "Id";
                 DebilidadComboBox.DisplayMember = "Descripcion";
+                DebilidadComboBox.SelectedIndex = -1;
 
                 if(pokemon != null)
                 {

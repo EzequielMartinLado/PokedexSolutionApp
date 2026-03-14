@@ -60,7 +60,7 @@ namespace Negocio
             AccesoDatos dato = new AccesoDatos();
             try
             {
-                dato.setQuery($"Insert into Pokemons (Numero, Nombre, Descripcion, Activo, IdTipo, IdDebilidad, UrlImagen) Values (@numero, '@nombre', '@descripcion', 1, @idTipo, @idDebilidad, @urlImagen)");
+                dato.setQuery($"Insert into Pokemons (Numero, Nombre, Descripcion, Activo, IdTipo, IdDebilidad, UrlImagen) Values (@numero, @nombre, @descripcion, 1, @idTipo, @idDebilidad, @urlImagen)");
                 dato.setParameter("@numero", pokemonNew.Numero);
                 dato.setParameter("@nombre", pokemonNew.Nombre);
                 dato.setParameter("@descripcion", pokemonNew.Descripcion);
