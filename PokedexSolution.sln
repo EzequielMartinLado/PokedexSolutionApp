@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36930.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pokedex", "Poekedex\Pokedex.csproj", "{5E138365-6103-4554-A5D0-272411D19F9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negocio", "Negocio\Negocio.csproj", "{EB8B854A-0A71-4019-88FD-4171FAEA6C9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{7C74826E-51F8-418A-AD5D-3F49DE1D8686}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E138365-6103-4554-A5D0-272411D19F9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E138365-6103-4554-A5D0-272411D19F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E138365-6103-4554-A5D0-272411D19F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E138365-6103-4554-A5D0-272411D19F9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB8B854A-0A71-4019-88FD-4171FAEA6C9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB8B854A-0A71-4019-88FD-4171FAEA6C9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB8B854A-0A71-4019-88FD-4171FAEA6C9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB8B854A-0A71-4019-88FD-4171FAEA6C9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C74826E-51F8-418A-AD5D-3F49DE1D8686}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C74826E-51F8-418A-AD5D-3F49DE1D8686}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C74826E-51F8-418A-AD5D-3F49DE1D8686}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C74826E-51F8-418A-AD5D-3F49DE1D8686}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0278DCF1-1326-4E91-AA09-715AC4B2EB96}
+	EndGlobalSection
+EndGlobal
