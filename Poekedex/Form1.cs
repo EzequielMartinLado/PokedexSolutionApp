@@ -131,11 +131,69 @@ namespace Pokedex
             Eliminar(true);
         }
 
+        private bool ValidarFiltro()
+        {
+            string validacion;
+            if (CampoComboBox.SelectedIndex < 0)
+            {
+                validacion = "Por favor seleccionar un campo";
+                ValidarLabel.Text = validacion;
+                ValidarLabel.ForeColor = Color.Red;
+                
+                return true;
+                
+            }
+
+            if(CriterioComboBox.SelectedIndex < 0)
+            {
+                validacion = "Por favor seleccionar un criterio";
+                ValidarLabel.Text = validacion;
+                ValidarLabel.ForeColor = Color.Red;
+
+                return true;
+            }
+
+            if (CampoComboBox.SelectedItem.ToString() == "Número")
+            {
+                if (string.IsNullOrEmpty(FiltroBDTextBox.Text)) 
+                { 
+                    validacion = "Por favor, ingresar un número";
+                    ValidarLabel.Text = validacion;
+                    ValidarLabel.ForeColor = Color.Red;
+                    return true;
+                    
+                }
+                if (!(soloNumero(FiltroBDTextBox.Text)))
+                {
+                    validacion = "Por favor, ingresar solo número";
+                    ValidarLabel.Text = validacion;
+                    ValidarLabel.ForeColor = Color.Red;
+                    return true;
+
+                }
+            }
+            ValidarLabel.Hide();
+            return false;
+        }
+
+        private bool soloNumero (string cadena)
+        {
+            foreach (char caracter in cadena)
+            {
+                if (!(char.IsNumber(caracter)))
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
         private void FiltroButton_Click(object sender, EventArgs e)
         {
             PokemonNegocio pokemonNegocio = new PokemonNegocio();
             try
             {
+                if (ValidarFiltro())
+                    return;
                 string campo = CampoComboBox.SelectedItem.ToString();
                 string criterio = CriterioComboBox.SelectedItem.ToString();
                 string filtro = FiltroBDTextBox.Text;

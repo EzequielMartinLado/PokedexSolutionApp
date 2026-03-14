@@ -45,6 +45,7 @@
             this.FiltroButton = new System.Windows.Forms.Button();
             this.FiltroTituloLabel = new System.Windows.Forms.Label();
             this.FiltroTituloAvanzadoLabel = new System.Windows.Forms.Label();
+            this.ValidarLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.PokemonPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PokemonDataGridView)).BeginInit();
             this.SuspendLayout();
@@ -218,11 +219,20 @@
             this.FiltroTituloAvanzadoLabel.TabIndex = 21;
             this.FiltroTituloAvanzadoLabel.Text = "Filtro Avanzado";
             // 
+            // ValidarLabel
+            // 
+            this.ValidarLabel.AutoSize = true;
+            this.ValidarLabel.Location = new System.Drawing.Point(641, 94);
+            this.ValidarLabel.Name = "ValidarLabel";
+            this.ValidarLabel.Size = new System.Drawing.Size(0, 13);
+            this.ValidarLabel.TabIndex = 22;
+            // 
             // PokedexForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(817, 399);
+            this.Controls.Add(this.ValidarLabel);
             this.Controls.Add(this.FiltroTituloAvanzadoLabel);
             this.Controls.Add(this.FiltroTituloLabel);
             this.Controls.Add(this.CriterioComboBox);
@@ -270,6 +280,7 @@
         private System.Windows.Forms.Button FiltroButton;
         private System.Windows.Forms.Label FiltroTituloLabel;
         private System.Windows.Forms.Label FiltroTituloAvanzadoLabel;
+        private System.Windows.Forms.Label ValidarLabel;
     }
 }
 
